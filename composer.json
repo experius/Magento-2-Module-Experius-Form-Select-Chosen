@@ -1,0 +1,20 @@
+{
+    "name": "experius/module-formselectchosen",
+    "description": "A module that enabled you to define select and multiselect jQuery chosen fields.",
+    "authors": [
+        {
+            "name": "Experius",
+            "email": "info@experius.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Experius\\FormSelectChosen\\": ""
+        }
+    }
+}
